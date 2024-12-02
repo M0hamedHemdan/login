@@ -12,14 +12,12 @@ addlogin.addEventListener("click", function () {
     email: emailInpet.value,
     password: passwordInpet.value,
   };
-   for (let i = 0; i < productList.length; i++){
-
-   
+  for (let i = 0; i < productList.length; i++){
   if (
     productList[i].email == product.email &&
     productList[i].password == product.password
   ) {
-    location.assign("http://127.0.0.1:5500/smartlogin.html");
+    location.assign("smartlogin.html");
     
   } else {
     removeInput.classList.remove("d-none");

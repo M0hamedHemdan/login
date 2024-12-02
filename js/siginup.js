@@ -98,7 +98,7 @@ passwordInpet.addEventListener("input", function () {
   }
 });
 
-
+//hamada
 /* function nameInput(params , callback) {
   if (regex.test(name)) {
     params.classList.add("is-valid");
